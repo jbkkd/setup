@@ -46,3 +46,5 @@ ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
 
+# Install Forever to allow running web server in background
+sudo npm install forever -g
