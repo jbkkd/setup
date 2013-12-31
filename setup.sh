@@ -48,3 +48,6 @@ ln -sf dotfiles/.emacs.d .
 
 # Install Forever to allow running web server in background
 sudo npm install forever -g
+
+# Install Express web server
+sudo npm install -g express
