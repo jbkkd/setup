@@ -21,7 +21,7 @@ npm install jshint -g
 npm install forever -g
 
 # Install Express web server
-npm install express -g
+npm install express
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
