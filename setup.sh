@@ -15,7 +15,13 @@ nvm use v0.10.12
 
 # Install jshint to allow checking of JS code within emacs
 # http://jshint.com/
-npm install -g jshint
+npm install jshint -g
+
+# Install Forever to allow running web server in background
+sudo npm install forever -g
+
+# Install Express web server
+sudo npm install express -g
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
@@ -45,9 +51,3 @@ ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 ln -sb dotfiles/.bashrc_custom .
 ln -sf dotfiles/.emacs.d .
-
-# Install Forever to allow running web server in background
-sudo npm install forever -g
-
-# Install Express web server
-sudo npm install -g express
