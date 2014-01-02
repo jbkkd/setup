@@ -18,10 +18,10 @@ nvm use v0.10.12
 npm install jshint -g
 
 # Install Forever to allow running web server in background
-sudo npm install forever -g
+npm install forever -g
 
 # Install Express web server
-sudo npm install express -g
+npm install express -g
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
