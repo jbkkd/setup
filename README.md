@@ -11,6 +11,13 @@ git clone https://github.com/jbkkd/setup.git
 ./setup/setup.sh   
 ```
 
+Don't forget to add SSH keys:
+
+```sh 
+ssh-keygen -t rsa -C "something@email.com"
+```
+and in Github: https://github.com/settings/ssh
+
 See also http://github.com/startup-class/dotfiles and
 [Startup Engineering Video Lectures 4a/4b](https://class.coursera.org/startup-001/lecture/index)
 for more details.
